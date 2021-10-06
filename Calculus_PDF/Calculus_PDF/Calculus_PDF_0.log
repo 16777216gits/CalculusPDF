@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.11.2 (TeX Live 2020/W32TeX)  (format=lualatex 2020.2.7)  6 OCT 2021 23:39
+This is LuaTeX, Version 1.11.2 (TeX Live 2020/W32TeX)  (format=lualatex 2020.2.7)  7 OCT 2021 00:01
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Calculus_PDF_0.tex
@@ -1194,14 +1194,14 @@ No file Calculus_PDF_0.ind.
 Here is how much of LuaTeX's memory you used:
  21461 strings out of 481393
  156468,794899 words of node,token memory allocated
- 8255 words of node memory still in use:
-   12 hlist, 2 vlist, 6 rule, 2 glue, 56 kern, 2 glyph, 1495 attribute, 892 glue_spec, 91 attribute_list, 3 write, 15 user_defined nodes
-   avail lists: 1:12,2:43528,3:405,4:350,5:320,6:36,7:3366,8:40,9:1839,10:41,11:2
+ 8475 words of node memory still in use:
+   12 hlist, 2 vlist, 6 rule, 2 glue, 58 kern, 2 glyph, 1533 attribute, 918 glue_spec, 93 attribute_list, 3 write, 15 user_defined nodes
+   avail lists: 1:12,2:43488,3:405,4:350,5:292,6:36,7:3366,8:40,9:1839,10:41,11:2
  37401 multiletter control sequences out of 65536+600000
  268 fonts using 36380927 bytes
  65i,18n,75p,1141b,281s stack positions out of 5000i,500n,10000p,500000b,100000s
 {e:/w32tex/share/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{e:/w32tex/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{e:/w32tex/share/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<e:/w32tex/share/texmf-dist/fonts/truetype/ipa/ipaexm.ttf><e:/w32tex/share/texmf-dist/fonts/truetype/ipa/ipaexg.ttf><e:/w32tex/share/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/newtx/txexs.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/txr/txsyb.pfb><e:/w32tex/share/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Calculus_PDF_0.pdf (15 pages, 515577 bytes).
+Output written on Calculus_PDF_0.pdf (15 pages, 517570 bytes).
 
 PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
