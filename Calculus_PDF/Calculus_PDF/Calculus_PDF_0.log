@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  7 OCT 2021 02:52
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  7 OCT 2021 04:06
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Calculus_PDF_0.tex
@@ -1222,7 +1222,7 @@ Here is how much of LuaTeX's memory you used:
  272 fonts using 55938399 bytes
  127i,19n,124p,1770b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Calculus_PDF_0.pdf (15 pages, 190878 bytes).
+Output written on Calculus_PDF_0.pdf (15 pages, 190881 bytes).
 
 PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
