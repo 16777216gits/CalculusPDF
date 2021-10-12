@@ -1,6 +1,6 @@
-\documentclass[book,paper=a5,fontsize=11.75Q,jafontscale=0.91,gutter=12mm,head_space=14.4mm,foot_space=20.736mm,baselineskip=1.625zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=10.8Q,jafontscale=0.91,twoside,gutter=14.4mm,head_space=16.2mm,foot_space=18mm,line_length=39zw,baselineskip=1.72zw,headfoot_verticalposition=0zw]{jlreq}
 \usepackage[intlimits]{amsmath}
-\usepackage{mathtools,amssymb}
+\usepackage{mathtools,amssymb,amsthm}
 \usepackage{newpxtext,newpxmath}
 \usepackage{autobreak}
 \usepackage{bm}
@@ -30,6 +30,12 @@
 \newcommand{\dv}{\mathrm{d}v}
 \newcommand{\dS}{\mathrm{d}S}
 \newcommand{\dV}{\mathrm{d}V}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\e}{\mathrm{e}}
 \newcommand{\dth}{\mathrm{d}\theta}
 \newcommand{\dta}{\mathrm{d}\tau}
 \newcommand{\dph}{\mathrm{d}\varphi}
@@ -58,6 +64,17 @@
 \newcommand{\Grad}[1]{\bm{\nabla}#1}
 \newcommand{\Div}[1]{\bm{\nabla}\cdot\bm{#1}}
 \newcommand{\Rot}[1]{\bm{\nabla}\times\bm{#1}}
+\renewcommand{\thefootnote}{*\arabic{footnote}}
+\NewPageStyle{handura}{
+    nombre_position=top-right,
+    running_head_position=top-right,
+    nombre=\thepage,
+    nombre_font=\Large\bfseries\sffamily,
+    running_head_font=\large\bfseries\sffamily,
+    odd_running_head=_section,
+    even_running_head=_chapter
+}
+\pagestyle{handura}
 \makeindex
 \begin{document}
 
