@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  12 OCT 2021 09:58
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  7 OCT 2021 04:06
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Calculus_PDF_0.tex
@@ -545,18 +545,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks30
-\thm@bodyfont=\toks31
-\thm@headfont=\toks32
-\thm@notefont=\toks33
-\thm@headpunct=\toks34
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
-\dth@everypar=\toks35
-) (c:/texlive/2021/texmf-dist/tex/latex/newpx/newpxtext.sty
+)) (c:/texlive/2021/texmf-dist/tex/latex/newpx/newpxtext.sty
 Package: newpxtext 2017/08/18 v1.321
  `newpxtext' v1.321, 2017/08/18 Text macros taking advantage of TeXGyre Pagella and its extensions (msharpe) (c:/texlive/2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
@@ -585,8 +574,8 @@ Package: newpxmath 2020/11/02 v1.414
  `newpxmath' v1.414, 2020/11/02 Math macros based on pxfonts (msharpe) (c:/texlive/2021/texmf-dist/tex/generic/kastrup/binhex.tex) (c:/texlive/2021/texmf-dist/tex/latex/oberdiek/centernot.sty
 Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
 )
-\px@tA=\toks36
-\px@tB=\toks37
+\px@tA=\toks30
+\px@tB=\toks31
 \px@su=\read2
 \px@Isdigit=\count292
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 197.
@@ -666,7 +655,7 @@ LaTeX Font Info:    Overwriting symbol font `largesymbolsPXA' in version `bold'
 (Font)                  U/npxexa/m/n --> U/npxexa/b/n on input line 318.
 \px@cntz=\count293
 \px@IsAlNum=\count294
-\px@sbptoks=\toks38
+\px@sbptoks=\toks32
 LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 473.
 LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 474.
 LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 475.
@@ -697,14 +686,12 @@ LaTeX Font Info:    Redeclaring math accent \vec on input line 1582.
 \npx@imath=\count299
 \npx@jmath=\count300
 LaTeX Info: Redefining \not on input line 2137.
-LaTeX Info: Redefining \textsquare on input line 2152.
-LaTeX Info: Redefining \openbox on input line 2154.
 ) (c:/texlive/2021/texmf-dist/tex/latex/autobreak/autobreak.sty
 Package: autobreak 2017/02/23 v0.3 simple line breaking of long formulae
-\everybeforeautobreak=\toks39
-\everyafterautobreak=\toks40
-\@autobreak@alltoks=\toks41
-\@autobreak@linetoks=\toks42
+\everybeforeautobreak=\toks33
+\everyafterautobreak=\toks34
+\@autobreak@alltoks=\toks35
+\@autobreak@linetoks=\toks36
 \@autobreak@lhswidth=\dimen195
 \@autobreak@rhswidth=\dimen196
 \@autobreak@maxlhswidth=\dimen197
@@ -747,7 +734,7 @@ Package: empheq 2017/03/31 v2.15 Emphasizing equations
 ) (c:/texlive/2021/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2020/10/09 version 4.42 text color boxes
  (c:/texlive/2021/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2021/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks43
+\pgfutil@everybye=\toks37
 \pgfutil@tempdima=\dimen266
 \pgfutil@tempdimb=\dimen267
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -774,10 +761,10 @@ File: luatex.def 2020/10/05 v1.2a Graphics/color driver for luatex
 ) (c:/texlive/2021/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks44
-\pgfkeys@temptoks=\toks45
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks46
+\pgfkeys@tmptoks=\toks40
 ))
 \pgf@x=\dimen270
 \pgf@y=\dimen271
@@ -795,9 +782,9 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 \c@pgf@countb=\count308
 \c@pgf@countc=\count309
 \c@pgf@countd=\count310
-\t@pgf@toka=\toks47
-\t@pgf@tokb=\toks48
-\t@pgf@tokc=\toks49
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
 \pgf@sys@id@count=\count311
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
@@ -834,9 +821,9 @@ Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
 \pgfmath@dimen=\dimen280
 \pgfmath@count=\count314
 \pgfmath@box=\box77
-\pgfmath@toks=\toks50
-\pgfmath@stack@operand=\toks51
-\pgfmath@stack@operation=\toks52
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
 ) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count315
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2021/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
@@ -917,8 +904,8 @@ Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 )) (c:/texlive/2021/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks53
-\verbatim@line=\toks54
+\every@verbatim=\toks47
+\verbatim@line=\toks48
 \verbatim@in@stream=\read4
 ) (c:/texlive/2021/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
@@ -943,8 +930,8 @@ Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen307
 \pgffor@skip=\dimen308
-\pgffor@stack=\toks55
-\pgffor@toks=\toks56
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 )) (c:/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
  (c:/texlive/2021/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
@@ -988,52 +975,52 @@ Writing index file Calculus_PDF_0.idx
 (./Calculus_PDF_0.aux (./Cal0.aux) (./Cal1.aux) (./app1.aux))
 \openout1 = Calculus_PDF_0.aux
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 68.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 68.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 62.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 62.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 68.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 62.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 68.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 68.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 62.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 68.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 68.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 62.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 68.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 68.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 62.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 62.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    ... okay on input line 62.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 68.
+LaTeX Info: Redefining \selectfont on input line 62.
 \c@mv@tabular=\count331
 \c@mv@boldtabular=\count332
 \Hy@linkcounter=\count333
@@ -1044,12 +1031,12 @@ LaTeX Info: Redefining \selectfont on input line 68.
 \scratchbox=\box95
 \nofMPsegments=\count335
 \nofMParguments=\count336
-\everyMPshowfont=\toks57
+\everyMPshowfont=\toks51
 \MPscratchCnt=\count337
 \MPscratchDim=\dimen319
 \MPnumerator=\count338
 \makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks58
+\everyMPtoPDFconversion=\toks52
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1212,16 +1199,7 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 4.1831pt on input line 136.
  [5
 
-] [6] [7]
-LaTeX Font Info:    Trying to load font information for T1+zplsups on input line 201.
- (c:/texlive/2021/texmf-dist/tex/latex/newpx/t1zplsups.fd
-File: t1zplsups.fd 2015/01/17 v1.0
-)
-LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
-(Font)              scaled to size 8.35782pt on input line 201.
-LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.68628pt on input line 201.
-) [8
+] [6] [7]) [8
 
 ]
 \openout2 = app1.aux
@@ -1235,19 +1213,19 @@ No file Calculus_PDF_0.ind.
 (./Calculus_PDF_0.aux (./Cal0.aux) (./Cal1.aux) (./app1.aux)))
 
 Here is how much of LuaTeX's memory you used:
- 22074 strings out of 478531
+ 21965 strings out of 478531
  195705,794899 words of node,token memory allocated
- 15184 words of node memory still in use:
-   12 hlist, 2 vlist, 6 rule, 3 glue, 40 kern, 2 glyph, 4247 attribute, 1001 glue_spec, 240 attribute_list, 4 write, 178 user_defined nodes
-   avail lists: 1:32,2:43909,3:602,4:486,5:392,6:57,7:4955,8:42,9:2682,10:42,11:3
- 40710 multiletter control sequences out of 65536+600000
- 274 fonts using 56053951 bytes
+ 15006 words of node memory still in use:
+   12 hlist, 2 vlist, 6 rule, 2 glue, 40 kern, 2 glyph, 4193 attribute, 992 glue_spec, 237 attribute_list, 4 write, 175 user_defined nodes
+   avail lists: 1:40,2:43966,3:602,4:489,5:397,6:55,7:4956,8:42,9:2682,10:42,11:3
+ 40617 multiletter control sequences out of 65536+600000
+ 272 fonts using 55938399 bytes
  127i,19n,124p,1770b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newpx/npxsups_t1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/npxsups-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Calculus_PDF_0.pdf (15 pages, 194411 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
+Output written on Calculus_PDF_0.pdf (15 pages, 190881 bytes).
 
-PDF statistics: 111 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
+PDF statistics: 106 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
