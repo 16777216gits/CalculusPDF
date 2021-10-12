@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  11 OCT 2021 17:51
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  12 OCT 2021 09:58
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Calculus_PDF_0.tex
@@ -988,52 +988,52 @@ Writing index file Calculus_PDF_0.idx
 (./Calculus_PDF_0.aux (./Cal0.aux) (./Cal1.aux) (./app1.aux))
 \openout1 = Calculus_PDF_0.aux
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 67.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 67.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 68.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 68.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 67.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 68.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 67.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 68.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 67.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 68.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 67.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 67.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 68.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 68.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    ... okay on input line 68.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 67.
+LaTeX Info: Redefining \selectfont on input line 68.
 \c@mv@tabular=\count331
 \c@mv@boldtabular=\count332
 \Hy@linkcounter=\count333
