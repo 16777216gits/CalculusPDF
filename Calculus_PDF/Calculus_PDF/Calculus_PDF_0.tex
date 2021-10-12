@@ -1,4 +1,4 @@
-\documentclass[book,paper=a5,fontsize=11.75Q,jafontscale=0.91,gutter=12mm,head_space=14.4mm,foot_space=20.736mm,baselineskip=1.625zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=10.4Q,jafontscale=0.91,twoside,gutter=13.3mm,head_space=16mm,foot_space=23.04mm,baselineskip=1.75zw,headfoot_verticalposition=3zw]{jlreq}
 \usepackage[intlimits]{amsmath}
 \usepackage{mathtools,amssymb,amsthm}
 \usepackage{newpxtext,newpxmath}
@@ -65,6 +65,15 @@
 \newcommand{\Div}[1]{\bm{\nabla}\cdot\bm{#1}}
 \newcommand{\Rot}[1]{\bm{\nabla}\times\bm{#1}}
 \renewcommand{\thefootnote}{*\arabic{footnote}}
+\NewPageStyle{handura}{
+    nombre_position=top-right,
+    running_head_position=top-right,
+    nombre=\thepage,
+    nombre_font=\huge,
+    odd_running_head=_section,
+    even_running_head=_chapter
+}
+\pagestyle{handura}
 \makeindex
 \begin{document}
 

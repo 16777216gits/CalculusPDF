@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  12 OCT 2021 19:11
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  13 OCT 2021 00:55
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Calculus_PDF_0.tex
@@ -403,11 +403,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)(load cache: extra_lmroman8-regular.luc)
+)(load cache: extra_lmroman7-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.60564pt on input line 1127.
+(Font)              scaled to size 6.7318pt on input line 1127.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.60564pt on input line 1127.
+(Font)              scaled to size 6.7318pt on input line 1127.
 \jlreq@baselineskip=\dimen165
 \jlreq@omotekeiwidth=\dimen166
 \jlreq@chuubusokeiwidth=\dimen167
@@ -415,11 +415,11 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 \jlreq@footnoteindent=\dimen169
 \jlreq@sidenote@length=\dimen170
 \jlreq@sidenote@sep=\dimen171
-(load cache: extra_lmroman7-regular.luc)
+(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.08453pt on input line 1307.
+(Font)              scaled to size 5.38545pt on input line 1307.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.08453pt on input line 1307.
+(Font)              scaled to size 5.38545pt on input line 1307.
 \jlreq@BlockHeading@start@label@box=\box69
 \jlreq@BlockHeading@spaces@current@count=\count199
 
@@ -447,9 +447,9 @@ LaTeX3 Info: Defining command \ModifyHeading with sig. 'mm' on line 3014.
 LaTeX3 Info: Defining command \jidori with sig. 'mm' on line 5736.
 
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.84502pt on input line 5963.
+(Font)              scaled to size 6.05856pt on input line 5963.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.84502pt on input line 5963.
+(Font)              scaled to size 6.05856pt on input line 5963.
 ) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip54
@@ -577,7 +577,7 @@ LaTeX Font Info:    Trying to load font information for T1+zpltlf on input line 
 File: t1zpltlf.fd 2015/01/17 v1.0 font definition file for T1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 8.35782pt on input line 112.
+(Font)              scaled to size 7.39755pt on input line 112.
 ) (c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )) (c:/texlive/2021/texmf-dist/tex/latex/newpx/newpxmath.sty
@@ -988,52 +988,52 @@ Writing index file Calculus_PDF_0.idx
 (./Calculus_PDF_0.aux (./Cal0.aux) (./Cal1.aux) (./app1.aux))
 \openout1 = Calculus_PDF_0.aux
 
-LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 69.
-LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 69.
+LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 78.
+LaTeX Font Info:    Trying to load font information for OML+npxmi on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/omlnpxmi.fd
 File: omlnpxmi.fd 2013/03/21 Fontinst v1.933 font definitions for OML/npxmi.
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 69.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 69.
-LaTeX Font Info:    Trying to load font information for U+npxexa on input line 69.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/npxexa/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for U+npxexa on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/unpxexa.fd
 File: unpxexa.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxexa.
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 69.
-LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 69.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LMS/npxsy/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for LMS+npxsy on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/lmsnpxsy.fd
 File: lmsnpxsy.fd 2016/07/04 Fontinst v1.933 font definitions for LMS/npxsy.
 )
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 69.
-LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 69.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for LMX/npxexx/m/n on input line 78.
+LaTeX Font Info:    Trying to load font information for LMX+npxexx on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/lmxnpxexx.fd
 File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 )
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    ... okay on input line 78.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 69.
+LaTeX Info: Redefining \selectfont on input line 78.
 \c@mv@tabular=\count331
 \c@mv@boldtabular=\count332
 \Hy@linkcounter=\count333
@@ -1059,34 +1059,34 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 \openout2 = Cal0.aux
  (./Cal0.tex
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 16.71564pt on input line 2.
+(Font)              scaled to size 14.7951pt on input line 2.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 15.21129pt on input line 2.
+(Font)              scaled to size 13.4636pt on input line 2.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 15.21129pt on input line 2.
+(Font)              scaled to size 13.4636pt on input line 2.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 2.
  (c:/texlive/2021/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 15.71274pt on input line 2.
+(Font)              scaled to size 13.90742pt on input line 2.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 15.21129pt on input line 2.
+(Font)              scaled to size 13.4636pt on input line 2.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 15.21129pt on input line 2.
+(Font)              scaled to size 13.4636pt on input line 2.
 (load cache: extra_haranoajigothic-medium.luc)
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 15.71274pt on input line 2.
-LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <16.71564> not available
+(Font)              scaled to size 13.90742pt on input line 2.
+LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <14.7951> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 15.21129pt on input line 2.
-LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <16.71564> not available
+(Font)              scaled to size 13.4636pt on input line 2.
+LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <14.7951> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 15.21129pt on input line 2.
+(Font)              scaled to size 13.4636pt on input line 2.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 7.52197pt on input line 7.
+(Font)              scaled to size 6.65775pt on input line 7.
  [1
 
 
@@ -1095,21 +1095,21 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <8.35782> on input line 8.
+LaTeX Font Info:    Calculating math sizes for size <7.39755> on input line 8.
 LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input line 8.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.35782pt on input line 8.
+(Font)              scaled to size 7.39755pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.10117pt on input line 8.
+(Font)              scaled to size 5.40018pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 4.59682pt on input line 8.
+(Font)              scaled to size 4.06866pt on input line 8.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.55208pt on input line 8.
+(Font)              scaled to size 4.91417pt on input line 8.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.1831pt on input line 8.
+(Font)              scaled to size 3.7025pt on input line 8.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1131,11 +1131,11 @@ LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 8
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 8.35782pt on input line 8.
+(Font)              scaled to size 7.39755pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.10117pt on input line 8.
+(Font)              scaled to size 5.40018pt on input line 8.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 4.59682pt on input line 8.
+(Font)              scaled to size 4.06866pt on input line 8.
  [3]) [4
 
 
@@ -1151,73 +1151,100 @@ LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
 \openout2 = Cal1.aux
  (./Cal1.tex
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 11.70094pt on input line 3.
+(Font)              scaled to size 10.35657pt on input line 3.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 10.64789pt on input line 3.
+(Font)              scaled to size 9.4245pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 10.64789pt on input line 3.
+(Font)              scaled to size 9.4245pt on input line 3.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.9989pt on input line 3.
+(Font)              scaled to size 9.73518pt on input line 3.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 10.64789pt on input line 3.
+(Font)              scaled to size 9.4245pt on input line 3.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 10.64789pt on input line 3.
+(Font)              scaled to size 9.4245pt on input line 3.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.9989pt on input line 3.
-LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <11.70094> not available
+(Font)              scaled to size 9.73518pt on input line 3.
+LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <10.35657> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 10.64789pt on input line 3.
-LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <11.70094> not available
+(Font)              scaled to size 9.4245pt on input line 3.
+LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <10.35657> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 10.64789pt on input line 3.
+(Font)              scaled to size 9.4245pt on input line 3.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 10.02939pt on input line 5.
+(Font)              scaled to size 8.87706pt on input line 5.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 9.12677pt on input line 5.
+(Font)              scaled to size 8.07816pt on input line 5.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 9.12677pt on input line 5.
+(Font)              scaled to size 8.07816pt on input line 5.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.42764pt on input line 5.
+(Font)              scaled to size 8.34445pt on input line 5.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.12677pt on input line 5.
+(Font)              scaled to size 8.07816pt on input line 5.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.12677pt on input line 5.
+(Font)              scaled to size 8.07816pt on input line 5.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 9.42764pt on input line 5.
-LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <10.02939> not available
+(Font)              scaled to size 8.34445pt on input line 5.
+LaTeX Font Info:    Font shape `JT3/gt/b/n' in size <8.87706> not available
 (Font)              Font shape `JT3/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.12677pt on input line 5.
-LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <10.02939> not available
+(Font)              scaled to size 8.07816pt on input line 5.
+LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <8.87706> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.12677pt on input line 5.
+(Font)              scaled to size 8.07816pt on input line 5.
+
+Overfull \vbox (3.63216pt too high) has occurred while \output is active []
+
  [1
 
 
-] [2] [3] [4]
+]
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
+ [2]
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
+ [3]
+Overfull \vbox (3.63216pt too high) has occurred while \output is active []
+
+ [4]
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.60564pt on input line 126.
+(Font)              scaled to size 6.7318pt on input line 126.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 7.60564pt on input line 126.
+(Font)              scaled to size 6.7318pt on input line 126.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.10117pt on input line 136.
+(Font)              scaled to size 5.40018pt on input line 136.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.55208pt on input line 136.
+(Font)              scaled to size 4.91417pt on input line 136.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 4.59682pt on input line 136.
+(Font)              scaled to size 4.06866pt on input line 136.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.1831pt on input line 136.
+(Font)              scaled to size 3.7025pt on input line 136.
+
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
  [5
 
-] [6] [7]
+]
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
+ [6]
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
+ [7]
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
-(Font)              scaled to size 6.68628pt on input line 201.
+(Font)              scaled to size 5.91806pt on input line 201.
+
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
  [8
 
-]) [9
+])
+Overfull \vbox (3.26968pt too high) has occurred while \output is active []
+
+ [9
 
 ]
 \openout2 = app1.aux
@@ -1226,21 +1253,24 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 
 
 
-]) [11]
+])
+Overfull \vbox (3.63216pt too high) has occurred while \output is active []
+
+ [11]
 No file Calculus_PDF_0.ind.
 (./Calculus_PDF_0.aux (./Cal0.aux) (./Cal1.aux) (./app1.aux)))
 
 Here is how much of LuaTeX's memory you used:
- 22037 strings out of 478531
+ 22125 strings out of 478531
  195705,794899 words of node,token memory allocated
- 15667 words of node memory still in use:
-   12 hlist, 2 vlist, 6 rule, 4 glue, 40 kern, 2 glyph, 4335 attribute, 1055 glue_spec, 245 attribute_list, 4 write, 183 user_defined nodes
-   avail lists: 1:30,2:43816,3:602,4:481,5:338,6:57,7:4954,8:42,9:2682,10:42,11:3
- 40680 multiletter control sequences out of 65536+600000
- 273 fonts using 55996231 bytes
+ 15337 words of node memory still in use:
+   12 hlist, 2 vlist, 6 rule, 4 glue, 40 kern, 2 glyph, 4335 attribute, 989 glue_spec, 245 attribute_list, 4 write, 183 user_defined nodes
+   avail lists: 1:42,2:43936,3:608,4:547,5:435,6:58,7:4945,8:42,9:2667,10:47,11:3
+ 40733 multiletter control sequences out of 65536+600000
+ 310 fonts using 60332675 bytes
  127i,19n,124p,1770b,287s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Calculus_PDF_0.pdf (17 pages, 199923 bytes).
+Output written on Calculus_PDF_0.pdf (17 pages, 199920 bytes).
 
 PDF statistics: 112 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
