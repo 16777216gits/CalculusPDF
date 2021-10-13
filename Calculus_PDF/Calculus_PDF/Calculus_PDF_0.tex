@@ -1,17 +1,28 @@
-\documentclass[book,paper=a5,fontsize=10.8Q,jafontscale=0.91,twoside,gutter=14.4mm,head_space=16.2mm,foot_space=18mm,line_length=39zw,baselineskip=1.72zw,headfoot_verticalposition=0zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=11.25Q,jafontscale=0.91,twoside,gutter=14.4mm,head_space=21.6mm,foot_space=19.2mm,line_length=36zw,baselineskip=1.69zw,headfoot_verticalposition=1.625zw]{jlreq}
+
 \usepackage[intlimits]{amsmath}
 \usepackage{mathtools,amssymb,amsthm}
 \usepackage{newpxtext,newpxmath}
 \usepackage{autobreak}
 \usepackage{bm}
+\usepackage{cancel}
 \usepackage{luatexja}
 \usepackage{mleftright}
 \usepackage{empheq}
 \usepackage{tcolorbox}
 \usepackage{graphicx,xcolor,tikz}
 \usepackage{makeidx}
+\usepackage{wtref}
+
+\makeatletter
+\renewcommand*{\chapter}{\@startsection{chapter}{0}{\z@}{2\Cvs}{6\Cvs}{\Huge\bfseries\sffamily}}
+\renewcommand*{\section}{\@startsection{section}{1}{\z@}{4\Cvs}{.5\Cvs}{\Large\bfseries\sffamily}}
+\renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{\Cvs}{.125\Cvs}{\large\bfseries\sffamily}}
+\makeatother
+
 \everymath{\displaystyle}
-\allowdisplaybreaks
+\allowdisplaybreaks[4]
+
 \newcommand{\opdiff}[1]{\frac{\mathrm{d}}{\mathrm{d}#1}}
 \newcommand{\diff}[2]{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
 \newcommand{\diffn}[3]{\frac{\mathrm{d}^{#3}#1}{\mathrm{d}#2^{#3}}}
@@ -47,16 +58,10 @@
 \newcommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}}
 \newcommand{\vmat}[1]{\begin{vmatrix}#1\end{vmatrix}}
 \newcommand{\case}[1]{\begin{empheq}[left=\empheqlbrace]{align*}#1\end{empheq}}
-\newcommand{\fm}[1]{\begin{align*}#1\end{align*}}
-\newcommand{\dfp}[3]{#1\frac{\mathrm{d}#2}{\mathrm{d}#3}+#2\frac{\mathrm{d}#1}{\mathrm{d}#3}}
-\newcommand{\opdfp}[3]{\left(\frac{\mathrm{d}}{\mathrm{d}#3}#1\right)#2+\left(\frac{\mathrm{d}}{\mathrm{d}#3}#2\right)#1}
 \newcommand{\cd}{\cdots}
 \newcommand{\vd}{\vdots}
 \newcommand{\ddo}{\ddots}
 \newcommand{\hd}[1]{\hdotsfor{#1}}
-\newcommand{\arsinh}{\mathrm{arsinh}}
-\newcommand{\arcosh}{\mathrm{arcosh}}
-\newcommand{\artanh}{\mathrm{artanh}}
 \newcommand{\rot}{\mathrm{rot}}
 \newcommand{\grad}{\mathrm{grad}}
 \newcommand{\diver}{\mathrm{div}}
@@ -64,18 +69,37 @@
 \newcommand{\Grad}[1]{\bm{\nabla}#1}
 \newcommand{\Div}[1]{\bm{\nabla}\cdot\bm{#1}}
 \newcommand{\Rot}[1]{\bm{\nabla}\times\bm{#1}}
+
+\newref{equ,theo,prop,pr,lem}
+
+\DeclareMathOperator{\arsinh}{arsinh}
+\DeclareMathOperator{\arcosh}{arcosh}
+\DeclareMathOperator{\artanh}{artanh}
+
+\newtheorem{defi}{定義}[chapter]
+\newtheorem{theo}{定理}[section]
+\newtheorem{lem}[theo]{補題}
+\newtheorem{prop}[theo]{命題}
+\newtheorem*{pr}{証明}
+\newtheorem{coro}{系}
+
 \renewcommand{\thefootnote}{*\arabic{footnote}}
+
+\setcounter{tocdepth}{1}
+
 \NewPageStyle{handura}{
     nombre_position=top-right,
     running_head_position=top-right,
     nombre=\thepage,
-    nombre_font=\Large\bfseries\sffamily,
-    running_head_font=\large\bfseries\sffamily,
+    nombre_font=\LARGE\bfseries\sffamily,
+    running_head_font=\bfseries\sffamily,
     odd_running_head=_section,
     even_running_head=_chapter
 }
 \pagestyle{handura}
+
 \makeindex
+
 \begin{document}
 
 \frontmatter
