@@ -1,4 +1,4 @@
-\documentclass[book,paper=a5,fontsize=11.25Q,jafontscale=0.91,twoside,gutter=14.4mm,head_space=21.6mm,foot_space=19.2mm,line_length=36zw,baselineskip=1.69zw,headfoot_verticalposition=1.625zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=12Q,jafontscale=0.91,twoside,gutter=10.8mm,head_space=21.6mm,foot_space=23.04mm,line_length=37zw,baselineskip=1.525zw,headfoot_verticalposition=2.16zw]{jlreq}
 
 \usepackage[intlimits]{amsmath}
 \usepackage{mathtools,amssymb,amsthm}
@@ -14,10 +14,14 @@
 \usepackage{makeidx}
 \usepackage{wtref}
 
+\jlreqsetup{
+    theorem_label_font={\bfseries\sffamily},theorem_font={\sffamily}
+}
+
 \makeatletter
 \renewcommand*{\chapter}{\@startsection{chapter}{0}{\z@}{2\Cvs}{6\Cvs}{\Huge\bfseries\sffamily}}
 \renewcommand*{\section}{\@startsection{section}{1}{\z@}{4\Cvs}{.5\Cvs}{\Large\bfseries\sffamily}}
-\renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{\Cvs}{.125\Cvs}{\large\bfseries\sffamily}}
+\renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{1.125\Cvs}{.375\Cvs}{\sffamily}}
 \makeatother
 
 \everymath{\displaystyle}
@@ -41,15 +45,16 @@
 \newcommand{\dv}{\mathrm{d}v}
 \newcommand{\dS}{\mathrm{d}S}
 \newcommand{\dV}{\mathrm{d}V}
+\newcommand{\dth}{\mathrm{d}\theta}
+\newcommand{\dta}{\mathrm{d}\tau}
+\newcommand{\dph}{\mathrm{d}\varphi}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\e}{\mathrm{e}}
-\newcommand{\dth}{\mathrm{d}\theta}
-\newcommand{\dta}{\mathrm{d}\tau}
-\newcommand{\dph}{\mathrm{d}\varphi}
+\newcommand{\defy}{\coloneqq}
 \newcommand{\pare}[1]{\mleft(#1\mright)}
 \newcommand{\abso}[1]{\biggm| #1 \biggm|}
 \newcommand{\equ}[1]{\begin{equation}#1\end{equation}}
@@ -70,7 +75,7 @@
 \newcommand{\Div}[1]{\bm{\nabla}\cdot\bm{#1}}
 \newcommand{\Rot}[1]{\bm{\nabla}\times\bm{#1}}
 
-\newref{equ,theo,prop,pr,lem}
+\newref{equ,theo,prop,pr,lem,coro}
 
 \DeclareMathOperator{\arsinh}{arsinh}
 \DeclareMathOperator{\arcosh}{arcosh}
@@ -81,11 +86,13 @@
 \newtheorem{lem}[theo]{補題}
 \newtheorem{prop}[theo]{命題}
 \newtheorem*{pr}{証明}
-\newtheorem{coro}{系}
+\newtheorem{coro}[theo]{系}
 
 \renewcommand{\thefootnote}{*\arabic{footnote}}
 
 \setcounter{tocdepth}{1}
+\setlength{\lineskip}{1.8pt}
+\setlength{\lineskiplimit}{1.8pt}
 
 \NewPageStyle{handura}{
     nombre_position=top-right,

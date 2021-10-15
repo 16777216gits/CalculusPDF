@@ -55,9 +55,9 @@
 \end{align}
 となる。みため、ただの分数の約分のように扱え、便利である。
 \vskip0.75\baselineskip
-例：$f:=\mathrm{e}^{-x^2}$
+例：$f\defy\mathrm{e}^{-x^2}$
 
-$g:=-x^2$とおくと、
+$g\defy-x^2$とおくと、
 \begin{align*}
     \diff{f}{x} & =\diff{f}{g}\diff{g}{x}           \\
                 & =\mathrm{e}^{-x^2}\cdot\pare{-2x} \\
@@ -111,14 +111,14 @@ $g:=-x^2$とおくと、
 \end{align}
 \clearpage
 \section{各種初等関数について}
-ここでは初等関数を（高校範囲外のものも）すべて定義しなおす。各小説の一番最初の積分に関してはこのあと、実数体の完備性を基に裏付けをとるものとして、それ以降の論理での整合性をここで完全にする、という二段階の方式をとることにする。
+ここでは初等関数をおさらいして、必要ならば定義を行う。一番最初の積分に関してはこのあと、実数体の完備性を基に裏付けをとるものとして、それ以降の論理での整合性をここで完全にする、という二段階の方式をとることにする。
 
 そのため最初の積分の式のみが高校流の（直感的ながらもふんわりとした）定義にもとづくが、後で直感に反しないようにより厳密に記述を加える。
 \subsection{指数関数・対数関数}
 これを定義として始めることにする。
 \begin{align}
     \begin{aligned}
-        \int_1^x \frac{\du}u & :=\ln x \\
+        \int_1^x \frac{\du}u & \defy\ln x \\
         \ln 1                & =0
     \end{aligned}\label{eq:1.9}
 \end{align}
@@ -127,11 +127,11 @@ $g:=-x^2$とおくと、
 
 さて、ここから指数関数と指数法則その他諸々を「再現」していくことにする。
 \begin{align*}
-    \ln\pare{xy} & =\int_1^{xy}\frac{\du}{u}                                                              \\
-                 & =\int_1^{x}\frac{\du}{u}+\int_x^{xy}\frac{\du}{u}                                      \\
-                 & =\ln x+\int_x^{xy}\frac{\du}{u}                                                        \\
-                 & =\ln x+\int_1^y \frac{\dt}u\diff{u}t              & \pare{\text{$u:=\frac{t}x$とする}} \\
-                 & =\ln x+\int_1^y\frac{\dt}t                                                             \\
+    \ln\pare{xy} & =\int_1^{xy}\frac{\du}{u}                                                                 \\
+                 & =\int_1^{x}\frac{\du}{u}+\int_x^{xy}\frac{\du}{u}                                         \\
+                 & =\ln x+\int_x^{xy}\frac{\du}{u}                                                           \\
+                 & =\ln x+\int_1^y \frac{\dt}u\diff{u}t              & \pare{\text{$u\defy\frac{t}x$とする}} \\
+                 & =\ln x+\int_1^y\frac{\dt}t                                                                \\
                  & =\ln x+\ln y                                      & \pare{\text{対数の法則}}
 \end{align*}
 \begin{align*}
@@ -174,9 +174,9 @@ $\arcsin x,\,\arccos x$は$[-1,1]$で、$\arctan x$は$\pare{-\infty,\,\infty}$�
 \subsection{双曲線関数・逆双曲線関数}
 指数関数を用いて定義される双曲線関数を定める。これに関しても逆関数を逆双曲線関数$\pare{\arcosh,\,\arsinh,\,\artanh}$という。
 \begin{align}
-    \frac{\mathrm{e}^x+\mathrm{e}^{-x}}{2} & :=\cosh x \\
-    \frac{\mathrm{e}^x-\mathrm{e}^{-x}}{2} & :=\sinh x \\
-    \frac{\sinh x}{\cosh x}                & :=\tanh x
+    \frac{\mathrm{e}^x+\mathrm{e}^{-x}}{2} & \defy\cosh x \\
+    \frac{\mathrm{e}^x-\mathrm{e}^{-x}}{2} & \defy\sinh x \\
+    \frac{\sinh x}{\cosh x}                & \defy\tanh x
 \end{align}
 余談だが、arc-ではなくar-である。
 
@@ -192,7 +192,7 @@ $\arcsin x,\,\arccos x$は$[-1,1]$で、$\arctan x$は$\pare{-\infty,\,\infty}$�
 
 さて、ここまでのもの（三角関数・指数関数とその逆関数）に多項式関数を含めたものをまとめて初等関数と呼ぶ。初等関数でない関数（後述するΓ関数やΒ関数など）を特殊関数と呼ぶ。
 
-積の微分法$\opdiff{x}\pare{fg}=\diff{f}xg+f\diff{g}x$や商の微分法$\opdiff{x}\pare{\frac{f}g}=\frac{\pare{\df/\dx}g-f\pare{\dg/\dx}}{g^2}$がある以上「初等関数の微分は初等関数で記述できる」が、積分計算は線形性$\int\pare{f+g}\dx=\int f\dx+\int g\dx$こそあるものの一般的な積や商に関する公式は存在せず、「初等関数の積分が初等関数で表されるとは限らない」ことは書き記しておくべきことであろう（そして、初等関数の定積分で定義された特殊関数も存在する）。
+積の微分法$\opdiff{x}\pare{fg}=\diff{f}xg+f\diff{g}x\,\,\,\pare{\text{一般に}\opdiff{x}\pare{\prod_{i=1}^n\,f_i}=\sum_{i=1}^{n}\frac{\dd f_i}{\dx}\frac{1}{f_i}\prod_{j=1}^n\,f_j}$や商の微分法$\opdiff{x}\pare{\frac{f}g}=\frac{\pare{\df/\dx}g-f\pare{\dg/\dx}}{g^2}$がある以上「初等関数の微分は初等関数で記述できる」が、積分計算は線形性$\int\pare{f+g}\dx=\int\!f\,\dx+\int\!g\,\dx$こそあるものの一般的な積や商に関する公式は存在せず、「初等関数の積分が初等関数で表されるとは限らない」ことは書き記しておくべきことであろう（そして、初等関数の定積分で定義された特殊関数も存在する）。
 
 \clearpage
 \section{ε-δ論法}
