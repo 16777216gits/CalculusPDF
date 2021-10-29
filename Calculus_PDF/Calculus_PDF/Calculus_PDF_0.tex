@@ -1,4 +1,4 @@
-\documentclass[book,paper=a5,fontsize=12Q,jafontscale=0.91,twoside,gutter=10.8mm,head_space=21.6mm,foot_space=23.04mm,line_length=37zw,baselineskip=1.525zw,headfoot_verticalposition=2.16zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=12Q,jafontscale=0.91,baselineskip=1.525zw,headfoot_verticalposition=2.304zw]{jlreq}
 
 \usepackage[intlimits]{amsmath}
 \usepackage{mathtools,amssymb,amsthm}
@@ -13,6 +13,7 @@
 \usepackage{graphicx,xcolor,tikz}
 \usepackage{makeidx}
 \usepackage{wtref}
+\usepackage{geometry}
 
 \jlreqsetup{
     theorem_label_font={\bfseries\sffamily},theorem_font={\sffamily}
@@ -23,6 +24,8 @@
 \renewcommand*{\section}{\@startsection{section}{1}{\z@}{4\Cvs}{.5\Cvs}{\Large\bfseries\sffamily}}
 \renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{1.125\Cvs}{.375\Cvs}{\sffamily}}
 \makeatother
+
+\geometry{twoside,inner=10.8mm,top=19.2mm,bottom=27.04mm,outer=36mm}
 
 \everymath{\displaystyle}
 \allowdisplaybreaks[4]
