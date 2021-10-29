@@ -1,17 +1,35 @@
-\documentclass[book,paper=a5,fontsize=11.75Q,jafontscale=0.91,gutter=12mm,head_space=14.4mm,foot_space=20.736mm,baselineskip=1.625zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=12Q,jafontscale=0.91,baselineskip=1.525zw,headfoot_verticalposition=2.304zw]{jlreq}
+
 \usepackage[intlimits]{amsmath}
 \usepackage{mathtools,amssymb,amsthm}
 \usepackage{newpxtext,newpxmath}
 \usepackage{autobreak}
 \usepackage{bm}
+\usepackage{cancel}
 \usepackage{luatexja}
 \usepackage{mleftright}
 \usepackage{empheq}
 \usepackage{tcolorbox}
 \usepackage{graphicx,xcolor,tikz}
 \usepackage{makeidx}
+\usepackage{wtref}
+\usepackage{geometry}
+
+\jlreqsetup{
+    theorem_label_font={\bfseries\sffamily},theorem_font={\sffamily}
+}
+
+\makeatletter
+\renewcommand*{\chapter}{\@startsection{chapter}{0}{\z@}{2\Cvs}{6\Cvs}{\Huge\bfseries\sffamily}}
+\renewcommand*{\section}{\@startsection{section}{1}{\z@}{4\Cvs}{.5\Cvs}{\Large\bfseries\sffamily}}
+\renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{1.125\Cvs}{.375\Cvs}{\sffamily}}
+\makeatother
+
+\geometry{twoside,inner=10.8mm,top=19.2mm,bottom=27.04mm,outer=36mm}
+
 \everymath{\displaystyle}
-\allowdisplaybreaks
+\allowdisplaybreaks[4]
+
 \newcommand{\opdiff}[1]{\frac{\mathrm{d}}{\mathrm{d}#1}}
 \newcommand{\diff}[2]{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
 \newcommand{\diffn}[3]{\frac{\mathrm{d}^{#3}#1}{\mathrm{d}#2^{#3}}}
@@ -30,15 +48,16 @@
 \newcommand{\dv}{\mathrm{d}v}
 \newcommand{\dS}{\mathrm{d}S}
 \newcommand{\dV}{\mathrm{d}V}
+\newcommand{\dth}{\mathrm{d}\theta}
+\newcommand{\dta}{\mathrm{d}\tau}
+\newcommand{\dph}{\mathrm{d}\varphi}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\Q}{\mathbb{Q}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\e}{\mathrm{e}}
-\newcommand{\dth}{\mathrm{d}\theta}
-\newcommand{\dta}{\mathrm{d}\tau}
-\newcommand{\dph}{\mathrm{d}\varphi}
+\newcommand{\defy}{\coloneqq}
 \newcommand{\pare}[1]{\mleft(#1\mright)}
 \newcommand{\abso}[1]{\biggm| #1 \biggm|}
 \newcommand{\equ}[1]{\begin{equation}#1\end{equation}}
@@ -47,16 +66,10 @@
 \newcommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}}
 \newcommand{\vmat}[1]{\begin{vmatrix}#1\end{vmatrix}}
 \newcommand{\case}[1]{\begin{empheq}[left=\empheqlbrace]{align*}#1\end{empheq}}
-\newcommand{\fm}[1]{\begin{align*}#1\end{align*}}
-\newcommand{\dfp}[3]{#1\frac{\mathrm{d}#2}{\mathrm{d}#3}+#2\frac{\mathrm{d}#1}{\mathrm{d}#3}}
-\newcommand{\opdfp}[3]{\left(\frac{\mathrm{d}}{\mathrm{d}#3}#1\right)#2+\left(\frac{\mathrm{d}}{\mathrm{d}#3}#2\right)#1}
 \newcommand{\cd}{\cdots}
 \newcommand{\vd}{\vdots}
 \newcommand{\ddo}{\ddots}
 \newcommand{\hd}[1]{\hdotsfor{#1}}
-\newcommand{\arsinh}{\mathrm{arsinh}}
-\newcommand{\arcosh}{\mathrm{arcosh}}
-\newcommand{\artanh}{\mathrm{artanh}}
 \newcommand{\rot}{\mathrm{rot}}
 \newcommand{\grad}{\mathrm{grad}}
 \newcommand{\diver}{\mathrm{div}}
@@ -64,8 +77,40 @@
 \newcommand{\Grad}[1]{\bm{\nabla}#1}
 \newcommand{\Div}[1]{\bm{\nabla}\cdot\bm{#1}}
 \newcommand{\Rot}[1]{\bm{\nabla}\times\bm{#1}}
+\newcommand{\skp}[1]{\vskip#1\baselineskip}
+
+\newref{equ,theo,prop,pr,lem,coro}
+
+\DeclareMathOperator{\arsinh}{arsinh}
+\DeclareMathOperator{\arcosh}{arcosh}
+\DeclareMathOperator{\artanh}{artanh}
+
+\newtheorem{defi}{定義}[chapter]
+\newtheorem{theo}{定理}[section]
+\newtheorem{lem}[theo]{補題}
+\newtheorem{prop}[theo]{命題}
+\newtheorem*{pr}{証明}
+\newtheorem{coro}[theo]{系}
+
 \renewcommand{\thefootnote}{*\arabic{footnote}}
+
+\setcounter{tocdepth}{1}
+\setlength{\lineskip}{1.8pt}
+\setlength{\lineskiplimit}{1.8pt}
+
+\NewPageStyle{handura}{
+    nombre_position=top-right,
+    running_head_position=top-right,
+    nombre=\thepage,
+    nombre_font=\LARGE\bfseries\sffamily,
+    running_head_font=\bfseries\sffamily,
+    odd_running_head=_section,
+    even_running_head=_chapter
+}
+\pagestyle{handura}
+
 \makeindex
+
 \begin{document}
 
 \frontmatter

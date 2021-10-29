@@ -1,5 +1,4 @@
 \contentsline {chapter}{最初に}{i}
-\contentsline {chapter}{本文中で使用される記号}{iii}
 \contentsline {chapter}{\numberline {第1章}一変数関数の実解析}{1}
 \contentsline {section}{\numberline {1.1}高校の復習}{1}
 \contentsline {subsection}{\numberline {1.1.1}微分法}{1}
@@ -11,7 +10,7 @@
 \contentsline {section}{\numberline {1.2}各種初等関数について}{5}
 \contentsline {subsection}{\numberline {1.2.1}指数関数・対数関数}{5}
 \contentsline {subsection}{\numberline {1.2.2}三角関数・逆三角関数}{6}
-\contentsline {subsection}{\numberline {1.2.3}双曲線関数・逆双曲線関数}{6}
+\contentsline {subsection}{\numberline {1.2.3}双曲線関数・逆双曲線関数}{7}
 \contentsline {section}{\numberline {1.3}ε-δ論法}{8}
-\contentsline {section}{\numberline {1.4}実数体の完備性}{9}
+\contentsline {section}{\numberline {1.4}実数体の完備性}{10}
 \contentsline {chapter}{\numberline {付録A}定積分の数値的計算}{11}
