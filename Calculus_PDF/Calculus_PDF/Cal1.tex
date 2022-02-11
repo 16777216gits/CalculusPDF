@@ -48,6 +48,25 @@
                             & =\cos x
 \end{align*}
 加法定理で展開。$\cos x$の微分も同様な展開を施せばいいのでこちらは略することにする。
+\subsection{積の微分法}
+積の微分法は
+\begin{align*}
+    \opdiff{x}\pare{fg}=\diff{f}xg+f\diff{g}x
+\end{align*}
+と展開することができる。三つ以上の積に考える場合も、一般化して
+\begin{align*}
+    \opdiff{x}\pare{\prod_{i=1}^n\,f_i} & =\opdiff{x}\pare{f_1f_2\cdots{}f_n}                                                                                   \\
+                                        & =\diff{f_1}{x}\pare{f_2\cdots{}f_n}+f_1\diff{f_2}x{}\pare{f_3\cdots{}f_n}+\cdots+\pare{f_1\cdots{}f_{n-1}}\diff{f_n}x \\
+                                        & =\sum_{i=1}^{n}\pare{\diff{f_i}x\,\frac{1}{f_i}\prod_{j=1}^n{}f_j}
+\end{align*}
+とできる。
+
+商の微分法は、先の式で$g_i\defy\frac{1}{f_i}$とおけばよく（この置換の際、直後にある合成関数の微分が適用されることに注意されたい）、例として$\frac{f}g$という関数を微分することを考えると
+\begin{align*}
+    \opdiff{x}\pare{\frac{f}g}=\frac{\pare{\df/\dx}g-f\pare{\dg/\dx}}{g^2}
+\end{align*}
+となる。
+
 \subsection{合成関数微分}
 一変数関数$f$において、もし$f$の中身に別の関数$g$がある、というふうな解釈ができるとき、これの微分は
 \begin{align}
@@ -67,7 +86,7 @@ $g\defy-x^2$とおくと、
 対数微分法も捉え方によっては合成関数微分である（ので、あまり別個に名前をつける必要はないんじゃないかな……って思っている）。
 
 \begin{align*}
-    \opdiff{x}\pare{\ln f} & =\frac{\df/\dx}{f}
+    \opdiff{x}\pare{\ln f} & =\diff{f}x\frac1{f}
 \end{align*}
 より、これを変形し
 \begin{align}
@@ -192,7 +211,7 @@ $\arcsin x,\,\arccos x$は$[-1,1]$で、$\arctan x$は$\pare{-\infty,\,\infty}$�
 
 さて、ここまでのもの（三角関数・指数関数とその逆関数）に多項式関数を含めたものをまとめて初等関数と呼ぶ。初等関数でない関数（後述するΓ関数やΒ関数など）を特殊関数と呼ぶ。
 
-積の微分法$\opdiff{x}\pare{fg}=\diff{f}xg+f\diff{g}x\,\,\,\pare{\text{一般に}\opdiff{x}\pare{\prod_{i=1}^n\,f_i}=\sum_{i=1}^{n}\frac{\dd f_i}{\dx}\frac{1}{f_i}\prod_{j=1}^n\,f_j}$や商の微分法$\opdiff{x}\pare{\frac{f}g}=\frac{\pare{\df/\dx}g-f\pare{\dg/\dx}}{g^2}$がある以上「初等関数の微分は初等関数で記述できる」が、積分計算は線形性$\int\pare{f+g}\,\dx=\int\!f\,\dx+\int\!g\,\dx$こそあるものの一般的な積や商に関する公式は存在せず、「初等関数の積分が初等関数で表されるとは限らない」ことは書き記しておくべきことであろう（そして、初等関数の定積分で定義された特殊関数も存在する）。
+積の微分法や商の微分法がある以上「初等関数の微分は初等関数で記述できる」が、積分計算は線形性$\int\pare{f+g}\,\dx=\int\!f\,\dx+\int\!g\,\dx$こそあるものの一般的な積や商に関する公式は存在せず、「初等関数の積分が初等関数で表されるとは限らない」ことは書き記しておくべきことであろう（そしてまた、初等関数の定積分で定義された特殊関数も存在する）。
 
 \clearpage
 \section{ε-δ論法}
