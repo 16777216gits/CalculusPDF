@@ -7,7 +7,7 @@
 \contentsline {subsection}{\numberline {1.1.4}合成関数微分}{3}
 \contentsline {subsection}{\numberline {1.1.5}対数微分法}{4}
 \contentsline {subsection}{\numberline {1.1.6}不定積分・定積分}{4}
-\contentsline {subsection}{\numberline {1.1.7}置換積分・部分積分}{5}
+\contentsline {subsection}{\numberline {1.1.7}置換積分・部分積分}{4}
 \contentsline {section}{\numberline {1.2}各種初等関数について}{6}
 \contentsline {subsection}{\numberline {1.2.1}指数関数・対数関数}{6}
 \contentsline {subsection}{\numberline {1.2.2}三角関数・逆三角関数}{7}
