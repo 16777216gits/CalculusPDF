@@ -1,4 +1,4 @@
-\documentclass[book,paper=a5,fontsize=12Q,jafontscale=0.91,baselineskip=1.525zw,headfoot_verticalposition=2.304zw]{jlreq}
+\documentclass[book,paper=a5,fontsize=12Q,jafontscale=0.91,baselineskip=1.625zw,headfoot_verticalposition=2.304zw]{jlreq}
 
 \usepackage[intlimits]{amsmath}
 \usepackage{mathtools,amssymb,amsthm}
@@ -20,9 +20,9 @@
 }
 
 \makeatletter
-\renewcommand*{\chapter}{\@startsection{chapter}{0}{\z@}{2\Cvs}{6\Cvs}{\Huge\bfseries\sffamily}}
-\renewcommand*{\section}{\@startsection{section}{1}{\z@}{4\Cvs}{.5\Cvs}{\Large\bfseries\sffamily}}
-\renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{1.125\Cvs}{.375\Cvs}{\sffamily}}
+\renewcommand*{\chapter}{\@startsection{chapter}{0}{\z@}{3\Cvs}{1.5\Cvs}{\Huge\bfseries\sffamily}}
+\renewcommand*{\section}{\@startsection{section}{1}{\z@}{1.5\Cvs}{.75\Cvs}{\Large\bfseries\sffamily}}
+\renewcommand*{\subsection}{\@startsection{subsection}{2}{\z@}{.75\Cvs}{.375\Cvs}{\sffamily}}
 \makeatother
 
 \geometry{twoside,inner=10.8mm,top=19.2mm,bottom=27.04mm,outer=36mm}
@@ -70,20 +70,17 @@
 \newcommand{\vd}{\vdots}
 \newcommand{\ddo}{\ddots}
 \newcommand{\hd}[1]{\hdotsfor{#1}}
-\newcommand{\rot}{\mathrm{rot}}
-\newcommand{\grad}{\mathrm{grad}}
-\newcommand{\diver}{\mathrm{div}}
-\newcommand{\vnabla}{\bm{\nabla}}
-\newcommand{\Grad}[1]{\bm{\nabla}#1}
-\newcommand{\Div}[1]{\bm{\nabla}\cdot\bm{#1}}
-\newcommand{\Rot}[1]{\bm{\nabla}\times\bm{#1}}
-\newcommand{\skp}[1]{\vskip#1\baselineskip}
-
-\newref{equ,theo,prop,pr,lem,coro}
-
 \DeclareMathOperator{\arsinh}{arsinh}
 \DeclareMathOperator{\arcosh}{arcosh}
 \DeclareMathOperator{\artanh}{artanh}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\diver}{div}
+\DeclareMathOperator{\rot}{rot}
+\newcommand{\vnabla}{\bm{\nabla}}
+\newcommand{\skp}[1]{\vskip#1\baselineskip}
+\newcommand{\expla}[2]{\underbrace{#1}_{\text{#2}}}
+
+\newref{equ,theo,prop,pr,lem,coro}
 
 \newtheorem{defi}{定義}[chapter]
 \newtheorem{theo}{定理}[section]
@@ -95,8 +92,8 @@
 \renewcommand{\thefootnote}{*\arabic{footnote}}
 
 \setcounter{tocdepth}{1}
-\setlength{\lineskip}{1.8pt}
-\setlength{\lineskiplimit}{1.8pt}
+\setlength{\lineskip}{1.2pt}
+\setlength{\lineskiplimit}{1.2pt}
 
 \NewPageStyle{handura}{
     nombre_position=top-right,
