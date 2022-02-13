@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  11 FEB 2022 11:29
+This is LuaHBTeX, Version 1.13.0 (TeX Live 2021/W32TeX)  (format=lualatex 2021.5.1)  13 FEB 2022 11:16
  restricted system commands enabled.
  file:line:error style messages enabled.
 **Calculus_PDF_0.tex
@@ -1003,7 +1003,6 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks57
 )
 \c@defi=\count334
-\c@theo=\count335
 LaTeX Font Info:    Font shape `T1/zpltlf/bx/n' in size <8.53564> not available
 (Font)              Font shape `T1/zpltlf/b/n' tried instead on input line 109.
 LaTeX Font Info:    Font shape `T1/zpltlf/b/n' will be
@@ -1087,21 +1086,21 @@ File: lmxnpxexx.fd 2016/07/04 Fontinst v1.933 font definitions for LMX/npxexx.
 LaTeX Font Info:    ... okay on input line 114.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 114.
-\c@mv@tabular=\count336
-\c@mv@boldtabular=\count337
-\Hy@linkcounter=\count338
+\c@mv@tabular=\count335
+\c@mv@boldtabular=\count336
+\Hy@linkcounter=\count337
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
+\scratchcounter=\count338
 \scratchdimen=\dimen326
 \scratchbox=\box95
-\nofMPsegments=\count340
-\nofMParguments=\count341
+\nofMPsegments=\count339
+\nofMParguments=\count340
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count342
+\MPscratchCnt=\count341
 \MPscratchDim=\dimen327
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
 \everyMPtoPDFconversion=\toks59
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1194,47 +1193,51 @@ LaTeX Font Info:    Font shape `JY3/gt/b/n' in size <11.9499> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 10.87445pt on input line 2.
-LaTeX Font Info:    Calculating math sizes for size <8.53564> on input line 9.
-LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input line 9.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 8.02351pt on input line 10.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 7.76746pt on input line 10.
+LaTeX Font Info:    Calculating math sizes for size <8.53564> on input line 10.
+LaTeX Font Info:    Trying to load font information for OT1+zpltlf on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/ot1zpltlf.fd
 File: ot1zpltlf.fd 2015/01/17 v1.0 font definition file for OT1/zpl/tlf
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 8.53564pt on input line 9.
+(Font)              scaled to size 8.53564pt on input line 10.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 6.23097pt on input line 9.
+(Font)              scaled to size 6.23097pt on input line 10.
 LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
-(Font)              scaled to size 4.69463pt on input line 9.
+(Font)              scaled to size 4.69463pt on input line 10.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.6702pt on input line 9.
+(Font)              scaled to size 5.6702pt on input line 10.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.27213pt on input line 9.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+(Font)              scaled to size 4.27213pt on input line 10.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+npxmia on input line 9.
+LaTeX Font Info:    Trying to load font information for U+npxmia on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/unpxmia.fd
 File: unpxmia.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsym on input line 9.
+LaTeX Font Info:    Trying to load font information for U+npxsym on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/unpxsym.fd
 File: unpxsym.fd 2015/03/21 Fontinst v1.933 font definitions for U/npxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 9.
+LaTeX Font Info:    Trying to load font information for U+npxsyc on input line 10.
  (c:/texlive/2021/texmf-dist/tex/latex/newpx/unpxsyc.fd
 File: unpxsyc.fd 2013/03/24 Fontinst v1.933 font definitions for U/npxsyc.
 )
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 8.53564pt on input line 9.
+(Font)              scaled to size 8.53564pt on input line 10.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 6.23097pt on input line 9.
+(Font)              scaled to size 6.23097pt on input line 10.
 LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
-(Font)              scaled to size 4.69463pt on input line 9.
+(Font)              scaled to size 4.69463pt on input line 10.
 )
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 7.68202pt on input line 117.
@@ -1256,10 +1259,6 @@ LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 ]
 \openout2 = Cal1.aux
  (./Cal1.tex
-LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.02351pt on input line 4.
-LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 7.76746pt on input line 4.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 14.51059pt on input line 25.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
@@ -1328,6 +1327,16 @@ Overfull \vbox (2.15561pt too high) has occurred while \output is active []
 LaTeX Font Info:    Font shape `T1/zpltlf/m/n' will be
 (Font)              scaled to size 6.82854pt on input line 214.
 LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
+(Font)              scaled to size 6.82854pt on input line 214.
+LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <6.82854> not available
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 214.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.21399pt on input line 214.
+LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <6.82854> not available
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 214.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.21399pt on input line 214.
+LaTeX Font Info:    Font shape `T1/zpltlf/m/it' will be
 (Font)              scaled to size 8.53564pt on input line 217.
 LaTeX Font Info:    Font shape `JT3/mc/m/it' in size <8.53564> not available
 (Font)              Font shape `JT3/mc/m/n' tried instead on input line 217.
@@ -1337,6 +1346,23 @@ LaTeX Font Info:    Font shape `JY3/mc/m/it' in size <8.53564> not available
 (Font)              Font shape `JY3/mc/m/n' tried instead on input line 217.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 7.76746pt on input line 217.
+LaTeX Font Info:    Calculating math sizes for size <6.82854> on input line 228.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 6.82854pt on input line 228.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 4.9848pt on input line 228.
+LaTeX Font Info:    Font shape `OT1/zpltlf/m/n' will be
+(Font)              scaled to size 3.7557pt on input line 228.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.53618pt on input line 228.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 3.4177pt on input line 228.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 6.82854pt on input line 228.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 4.9848pt on input line 228.
+LaTeX Font Info:    Font shape `OT1/zpltlf/b/n' will be
+(Font)              scaled to size 3.7557pt on input line 228.
 
 Overfull \vbox (2.15561pt too high) has occurred while \output is active []
 
@@ -1365,19 +1391,19 @@ No file Calculus_PDF_0.ind.
 (./Calculus_PDF_0.aux (./Cal0.aux) (./Cal1.aux) (./app1.aux)))
 
 Here is how much of LuaTeX's memory you used:
- 22806 strings out of 478531
- 244637,794899 words of node,token memory allocated
- 15846 words of node memory still in use:
-   12 hlist, 2 vlist, 6 rule, 3 glue, 41 kern, 2 glyph, 4233 attribute, 1140 glue_spec, 239 attribute_list, 4 write, 176 user_defined nodes
-   avail lists: 1:38,2:58515,3:822,4:442,5:437,6:41,7:6738,8:71,9:3094,10:37,11:3
- 41388 multiletter control sequences out of 65536+600000
- 277 fonts using 56228535 bytes
- 127i,19n,124p,1739b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
-Output written on Calculus_PDF_0.pdf (17 pages, 230664 bytes).
+ 22957 strings out of 478531
+ 244632,794899 words of node,token memory allocated
+ 16440 words of node memory still in use:
+   12 hlist, 2 vlist, 6 rule, 5 glue, 42 kern, 2 glyph, 4361 attribute, 1197 glue_spec, 246 attribute_list, 4 write, 181 user_defined nodes
+   avail lists: 1:39,2:60732,3:839,4:437,5:402,6:41,7:6858,8:71,9:3140,10:37,11:6
+ 41434 multiletter control sequences out of 65536+600000
+ 388 fonts using 66650875 bytes
+ 127i,19n,124p,1739b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}<c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/texlive/2021/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/NewPXMI_gnu.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxmiaX.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/pxsys.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsya.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/newpx/zplr.pfb>
+Output written on Calculus_PDF_0.pdf (17 pages, 244999 bytes).
 
-PDF statistics: 120 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
+PDF statistics: 124 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 

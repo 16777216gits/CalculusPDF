@@ -59,7 +59,7 @@
 \newcommand{\e}{\mathrm{e}}
 \newcommand{\defy}{\coloneqq}
 \newcommand{\pare}[1]{\mleft(#1\mright)}
-\newcommand{\abso}[1]{\biggm| #1 \biggm|}
+\newcommand{\abso}[1]{\mleft| #1 \mright|}
 \newcommand{\norm}[1]{\mleft\|#1\mright\|}
 \newcommand{\brct}[1]{\mleft< #1 \mright>}
 \newcommand{\subs}[1]{\mleft[#1\mright]}
@@ -86,11 +86,11 @@
 \newref{equ,theo,prop,pr,lem,coro}
 
 \newtheorem{defi}{定義}[chapter]
-\newtheorem{theo}{定理}[section]
-\newtheorem{lem}[theo]{補題}
-\newtheorem{prop}[theo]{命題}
+\newtheorem{theo}[defi]{定理}
+\newtheorem{lem}[defi]{補題}
+\newtheorem{prop}[defi]{命題}
 \newtheorem*{pr}{証明}
-\newtheorem{coro}[theo]{系}
+\newtheorem{coro}[defi]{系}
 
 \renewcommand{\thefootnote}{*\arabic{footnote}}
 
